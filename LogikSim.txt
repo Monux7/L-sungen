@@ -1,0 +1,46 @@
+Ich habe jetzt alle Aufgaben, bei denen wir etwas in LogikSim bauen sollten in einem 
+anderen Programm (Logic Gate Simulator) gebaut. Daher sind die Schaltkreise bei mir im
+png-Format.
+
+1b:
+(¬A∧¬C)∨(A∧(B∨C))
+
+2a:
+a	b	c	x
+0	0	0	0
+0	0	1	0
+0	1	0	0
+0	1	1	0
+1	0	0	1
+1	0	1	0
+1	1	0	1
+1	1	1	1
+
+2b:
+Die Schaltung ist schon optimiert.
+
+3a:
+(¬A∧B∧¬C)∨(¬A∧B∧C)∨(A∧B∧¬C)∨(A∧B∧C)
+
+3b:
+B
+
+4:
+a	b	c	x	y
+0	0	0	0	0
+0	0	1	0	0
+0	1	0	0	1
+0	1	1	0	1
+1	0	0	0	1
+1	0	1	0	1
+1	1	0	1	1
+1	1	1	1	1
+
+x = (A∧B)
+y = (A∨B)
+
+5b:
+x leuchtet, wenn A und B aktiv sind.
+
+5c:
+x = (A∧B)
